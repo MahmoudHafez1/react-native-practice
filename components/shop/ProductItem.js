@@ -53,6 +53,10 @@ const ProductItem = (props) => {
 
 const styles = StyleSheet.create({
   product: {
+    shadowColor: "black",
+    shadowOpacity: 0.25,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 8,
     elevation: 5,
     borderRadius: 10,
     margin: 20,
